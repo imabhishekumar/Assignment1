@@ -1,0 +1,344 @@
+*, html, body {
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+body{}
+
+/*Navbar Start*/
+
+.navbar{
+	opacity: 0.8;
+}
+
+.navbar-brand{
+	opacity: 1;
+	font-family: 'Pacifico', cursive;
+	font-weight: bold;
+	font-size: 2em;
+	height: 2.2em;
+	padding-top: 0.3em;
+}
+
+span#circle{
+	padding: 0.1em 0.4em;
+	border-radius: 50%;
+	background-color: yellow;
+	color:#ff8c00;
+}
+
+/*Navbar End*/
+
+/*jumbotron start*/
+
+.jumbotron{
+	padding: 0rem 0rem;
+    margin-bottom: 0rem;
+	background-image: url("images/office2.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	border-radius: 0em;
+	background-color: #fff;
+	margin-bottom: 2em;
+}
+
+
+
+.container {
+    max-width: 100%;
+}
+
+div#jumboContent{
+	margin-left: 2em;
+	margin-top: 4em;
+}
+
+.jumbotron h3, p{
+	color: #fff;
+}
+
+.jumbotron form input{
+	border-radius: 0em;
+}
+
+.btn{
+	border-radius: 0em;
+}
+
+.jumbotron form{
+	display: flex;
+}
+
+.jumbotron span{
+		color: #ff8c00;
+	}
+
+/*jumbotron end*/
+
+
+/*cards start*/
+
+.Company{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0.5em;
+}
+
+.Company h4{
+	font-family: 'Chakra Petch', sans-serif;
+	margin-top: 1em;
+	overflow: hidden;
+}
+
+.Company img{
+	width: 5em;
+	height: 5em;
+}
+
+.cards{
+	margin: 2em;
+	max-width: 40%;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.cards:hover{
+	box-shadow: 0em 0.5em 1em 0em #000;
+}
+
+.cards i {
+	color: orange;
+	width: 1em;
+	height: 1em;
+	margin-right: 0.2em;
+}
+
+.cards i#location{
+	margin-left: 1em;
+}
+
+.cards p{
+	color: #777;
+	margin-top: 1em;
+	text-align: justify;
+}
+
+.cards>img{
+	margin-top: 1em;
+}
+
+.btn1{
+	color: #fff;
+	background-color: #000;
+}
+
+.btn1:hover{
+	color: #00ffff;
+}
+
+.btn2{
+	color: #fff;
+	background-color: #ff8c00;
+	float: right;
+}
+
+.card-body{
+	padding: 1em;
+}
+
+.btn:hover{
+	box-shadow: 0em 0em 0.5em 0em #000;
+}
+
+
+/*cards end*/
+
+
+/*footer start*/
+
+footer{
+  width: 100%;
+  height: 100%;
+  padding: 2em;
+  background-color: #000;
+}
+
+footer h4{
+  color: #ff8c00;
+}
+
+div#icons{
+  display: flex;
+  margin-left: -10em;
+  margin-top: 2em;
+}
+
+div#icons img{
+    width: 2em;
+    margin: 0.8em;
+    margin-top: 1.2em;
+}
+
+div#icons img:hover{
+    margin-top: 0.5em;
+}
+
+div#information{
+  margin-left: 1.em;
+}
+
+div#information a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.col-xl-4 {
+    max-width: 103.333%;
+}
+
+
+form label{
+	color:#ff8c00;
+}
+
+/*footer end*/
+
+
+@media only screen and (max-width: 1400px){
+	.jumbotron{
+		height: 47vw;
+	}
+
+
+	div#jumboContent{
+	    margin-left: 8em;
+    	margin-top: 11em;
+  }
+
+  .form-inline .form-control {
+	    width: 30em;
+	}
+
+	.cards {
+      margin: 2em;
+      max-width: 25%;
+      margin-left: 4em;
+     }
+
+     .btn{
+     	padding: 0.375rem 1.3rem;
+     }
+ }
+
+@media only screen and (max-width: 1200px){
+	.jumbotron{
+		height: 47vw;
+	}
+	
+	div#jumboContent{
+	    margin-left: 6em;
+    	margin-top: 9em;
+  }
+
+	 .form-inline .form-control {
+	    width: 23em;
+	}
+
+	.cards {
+      margin: 2em;
+      max-width: 27%;
+     }
+
+     .btn{
+     	padding: 0.375rem 1rem;
+     }
+}
+
+
+@media only screen and (max-width: 992px){
+	.jumbotron{
+		height: 47vw;
+	}
+
+	div#jumboContent{
+	  margin-left: 4em;
+	  margin-top: 6em;
+    }
+
+    .form-inline .form-control {
+	    width: 18em;
+	}
+
+	.cards{
+	margin: 2em;
+	margin-left: 4em;
+	max-width: 34%;
+  }
+
+  .btn{
+     	padding: 0.375rem 0.8rem;
+     }
+}
+
+
+@media only screen and (max-width: 756px){
+	.jumbotron{
+		height: 50vw;
+	}
+
+	.form-inline .form-control {
+	    width: 15em;
+	}
+
+	.cards{
+	margin: 1em;
+	margin-left: 1em;
+	max-width: 45%;
+  }
+
+  .btn{
+     	padding: 0.375rem 0.6rem;
+     }
+
+   .jumbotron{
+   	  margin-top: 5.3em;
+   }
+}	
+
+@media only screen and (max-width: 576px){
+	.jumbotron h3{
+		font-size: 20px;
+	}
+
+	div#jumboContent{
+	    margin-left: 2em;
+    	margin-top: 2em;
+  }
+
+  .cards{
+	margin: 2em;
+	max-width: 80%;
+  }
+
+  .btn{
+     	padding: 0.375rem 1rem;
+     }
+
+   .jumbotron{
+   	margin-top: 5.3em;
+   }
+
+   div#information{
+   	margin-top: 2em;
+   	margin-left: 0em;
+   }
+
+   form{
+	margin-top: 2em;
+   }
+}
+
+

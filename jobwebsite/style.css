@@ -309,14 +309,27 @@ form label{
 }	
 
 @media only screen and (max-width: 576px){
-	.jumbotron h3{
-		font-size: 20px;
+    div#jumboContent h3{
+		font-size: 1.2rem;
 	}
+
+     div#jumboContent p{
+		font-size: 0.75rem;
+	}	
 
 	div#jumboContent{
 	    margin-left: 2em;
     	margin-top: 2em;
   }
+
+  div#jumboContent .form-control {
+    height: calc(1.1em + .75rem + 2px);
+   }
+
+   div#jumboContent .btn {
+    padding: 0.2rem 1rem;
+    }
+
 
   .cards{
 	margin: 2em;

@@ -465,6 +465,10 @@ ul#link{
      	margin-right: 0em;
     }
 
+    div#navLinks ul a{
+    	font-size: 11px;
+    }
+
     div #statistics img{
 	   width: 60%;
     }
@@ -474,12 +478,32 @@ ul#link{
 		width: 5em;
 	}
 
+	#video p{
+		font-size: 10px;
+	}
+
+	div#video div{
+		margin: 0px;
+	}
+
 	#prev{
 		left: 0em;
 	}
 
 	#next{
 		right: 0em;
+	}
+
+	.ms-5{
+		margin-left: 0rem !important;
+	}
+
+	/*ul#link li{
+		margin-right: 1em;
+	}*/
+
+	ul#terms{
+		margin-left: -2em;
 	}
 }
 
